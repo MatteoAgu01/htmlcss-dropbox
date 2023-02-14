@@ -140,28 +140,38 @@ header i {
 /* //header */
 
 /* main */
-main{
-     display: flex;
-     flex-flow: column;
-     align-items: center;
-     padding: 7% 0 0;
+.max{
+     max-width: 1200px;
+     margin: auto;
+}
+.fatturazione{
+     text-align: center;
+     padding: 3%;
 }
 
+.fatturazione> *{
+     padding: 10% 0;
+}
 
+#gratis{
+     font-size: 1.2rem;
+     padding: 5%;
+}
 
 .main-container{
-     max-width: 1200px;
+     max-width: 1400px;
      display: flex;
      flex-flow: row wrap;
-     justify-content: space-around;
+     justify-content: space-between;
 }
 .inline{
      display: inline-block;
+     font-size: 0.8rem;
 }
 
 .pocket{
      width: calc( 100% / 3.2);
-     border: 1px solid grey;
+     border: 1px solid rgba(159, 159, 159, 0.687);
      padding: 4% 1%;
      gap: ;
 }
@@ -170,4 +180,42 @@ main{
      padding: 8% 0;
 }
 
-/* main */
+.fa-check{
+     color: #0061ff;
+}
+.team{
+   
+     margin-top: 20px;
+     border: 1px solid rgba(159, 159, 159, 0.687);
+}
+
+.team> div{
+     text-align: center;
+     padding: 2%;
+}
+
+.d-flex{
+     padding: 2%;
+     display: flex;
+     border-top: 1px solid rgba(159, 159, 159, 0.687);
+     justify-content: space-between;
+}
+
+.left{
+     width: 40%;
+}
+
+.rigth{
+     width: 40%;
+     text-align: right;
+     padding-top: 5%;
+}
+
+.left> *{
+     padding: 3% 1%;
+}
+
+#contatta{
+     padding: 3%;
+}
+/* //main */
