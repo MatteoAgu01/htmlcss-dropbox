@@ -298,13 +298,23 @@ header i {
      max-width: calc(99vw / 3);
      display: flex;
      flex-flow: column wrap;
-     align-items: center;
+     justify-content: flex-start;
      background-color: var(--designit-big-bg);
 }
 
 hr{
-     width: 80%;
+     margin: 3% 0 ;
+     width: 60%;
 }
+
+.citazione{
+     padding:2% 0 4%;
+}
+
+.citatore{
+     padding:3%
+}
+
 .sponsor{
      display: flex;
      flex-flow: row wrap;
@@ -414,4 +424,63 @@ hr{
 .sponsor-8:hover{
      border-color: var(--clear-border);
 }
+
+.grey-bg{
+     background-color: #b4d0e7;
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+}
+
+.g-flex{
+     display: flex;
+     justify-content: center;
+     align-items: baseline;
+}
+
+.free{
+     width: calc(100% / 2);
+     padding:15% 0%;
+     font-size: 1.5rem;
+     display: flex;
+     justify-content: center;
+}
+
+.free> h2{
+     color: #61082b;
+}
+
+.answer{
+     padding: 15% 0 10%;
+     font-size: 2.2rem;
+}
+
+
+.free-test{
+     border: 1px solid rgb(176, 175, 175);
+     padding: 2px;
+     width: 50%;
+     font-size: 1rem;
+}
+
+.i-flex{
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-between;
+     align-items: baseline;
+}
+
+.i-flex> p{
+     padding: 3% 2%;
+     font-size: 1rem;
+}
+
+.min{
+     max-width: 800px;
+}
+
+.min> hr{
+     width: 110%;
+}
+
 /* //main */
