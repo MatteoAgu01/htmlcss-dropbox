@@ -525,7 +525,6 @@ footer {
      width: calc(100% / 5);
      display: flex;
      flex-flow: column nowrap;
-     justify-content: ;
      color: white;
 }
 
@@ -538,7 +537,7 @@ li {
      padding: 2% 0;
 }
 
-.little-left{
+.little-left {
      color: white;
      display: flex;
      flex-flow: row nowrap;
@@ -548,7 +547,8 @@ li {
      padding-top: 2.5%;
 }
 
-.little-left> span{
+.little-left>span {
      padding: 0 9%;
 }
+
 /* //footer */
