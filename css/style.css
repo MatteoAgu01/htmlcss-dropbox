@@ -313,10 +313,12 @@ hr {
 
 .citazione {
      padding: 2% 0 4%;
+     font-style: oblique;
 }
 
 .citatore {
-     padding: 3%
+     padding: 3%;
+
 }
 
 .sponsor {
